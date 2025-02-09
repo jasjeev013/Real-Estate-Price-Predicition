@@ -16,17 +16,17 @@ This project aims to predict real estate prices using machine learning technique
     git clone https://github.com/yourusername/real-estate-price-prediction.git
     ```
 2. Navigate to the project directory:
-    ```bash
+    ```terminal
     cd real-estate-price-prediction
     ```
 3. Create a virtual environment:
     ```bash
-    python -m venv venv
+    conda create -p venv python==3.10 -y
     ```
 4. Activate the virtual environment:
     - On Windows:
         ```bash
-        venv\Scripts\activate
+        conda activate venv\Scripts\activate
         ```
     - On macOS/Linux:
         ```bash
@@ -35,6 +35,11 @@ This project aims to predict real estate prices using machine learning technique
 5. Install the required dependencies:
     ```bash
     pip install -r requirements.txt
+    ```
+
+6. Frontend Running:
+    ```bash
+    streamlit run app.py
     ```
 
 ## Usage
